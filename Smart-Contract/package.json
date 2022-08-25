@@ -1,0 +1,18 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "description": "This is a smart contract from whitelist-dapp",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli"
+  },
+  "author": "Ujjwal Thakur",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
